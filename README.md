@@ -1,4 +1,4 @@
-# newsguardian
+# newsguardian 1.0.0
 Dynamic Fake news detection software 
 
 # Usage
