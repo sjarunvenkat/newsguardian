@@ -1,0 +1,29 @@
+<html>
+    <style>
+        table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+        </style>
+    <body>
+
+        <form method="POST">
+            {% csrf_token %}
+            {{ facts }}
+            <input type="submit" value="Submit">
+        </form>
+        <table>
+        {{fine | safe}}
+        </table>
+        <p>{{fact_check}}</p>
+    </body>
+</html>

@@ -1,0 +1,216 @@
+{% load static %}
+<!DOCTYPE html>
+<html  >
+    <style>
+        table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+        </style>
+<head>
+  <!-- Site made with Mobirise Website Builder v5.8.4, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v5.8.4, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="{% static 'assets/images/logo5.png' %}" type="image/x-icon">
+  <meta name="description" content="">
+  
+  
+  <title>Home</title>
+  <link rel="stylesheet" href="{% static 'assets/web/assets/mobirise-icons2/mobirise2.css' %}">
+  <link rel="stylesheet" href="{% static 'assets/bootstrap/css/bootstrap.min.css' %}">
+  <link rel="stylesheet" href="{% static 'assets/bootstrap/css/bootstrap-grid.min.css' %}">
+  <link rel="stylesheet" href="{% static 'assets/bootstrap/css/bootstrap-reboot.min.css' %}">
+  <link rel="stylesheet" href="{% static 'assets/parallax/jarallax.css' %}">
+  <link rel="stylesheet" href="{% static 'assets/socicon/css/styles.css' %}">
+  <link rel="stylesheet" href="{% static 'assets/theme/css/style.css' %}">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Lexend:100,200,300,400,500,600,700,800,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lexend:100,200,300,400,500,600,700,800,900&display=swap"></noscript>
+  <link rel="preload" as="style" href="{% static 'assets/mobirise/css/mbr-additional.css' %}"><link rel="stylesheet" href="{% static 'assets/mobirise/css/mbr-additional.css' %}" type="text/css">
+
+  
+  
+  
+</head>
+<body>
+  
+  <section data-bs-version="5.1" class="header11 cid-sFF0SGinka" id="header11-1">
+
+    
+
+    
+
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-5 image-wrapper">
+                <img class="w-100" src="{% static 'assets/images/kavach-logo-removebg-preview.png' %}" alt="Mobirise Website Builder">
+            </div>
+            <div class="col-12 col-md">
+                <div class="text-wrapper text-center">
+                    <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1">
+                        <strong>
+</strong><div><strong><br></strong></div><div><strong>Advanced </strong></div><div><strong>Fake News </strong></div><div><strong>Detection</strong></div><div><br></div></h1>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="form7 cid-tzryIGlyqm" id="form7-5">
+    
+    <div class="mbr-overlay"></div>
+    <div class="container-fluid">
+        <div class="mbr-section-head">
+            <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                <strong>Fact check here</strong></h3>
+            
+        </div>
+        <div class="row justify-content-center mt-4">
+            <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
+                <form method="POST" class="mbr-form form-with-styler mx-auto" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="gjc0Jo6UPnds4Wa/S+/EP8XWvrmlGFjxvKXuXLmMhaKtGk1WJuFk3PwQqbwebL21waTixqwcZ7qlPKhDlT4c5jJ4WOrD9NUFcc6WydExx5Tg8h4MwsjBuUTVPYzhWBo1">
+                    {% csrf_token %}
+                    
+                    <div class="dragArea row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 form-group mb-3" data-for="name">
+                            <input type="text" name="facts" placeholder="NEWS" data-form-field="name" class="form-control" value="" id="facts">
+                        </div>
+                        
+                        
+                        <div class="col-auto mbr-section-btn align-center">
+                            <button type="submit" class="btn btn-primary display-4">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="content15 cid-tzrE5Eqx0R" id="content15-6">
+
+    
+
+    
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="card col-md-12 col-lg-10">
+                <div class="card-wrapper">
+                    <div class="card-box align-left">
+                        <h4 class="card-title mbr-fonts-style mbr-white mb-3 display-5">
+                            <strong>Sources</strong></h4>
+                        <p class="mbr-text mbr-fonts-style display-7">
+                            <table>
+                                {{fine | safe}}
+                                </table>
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="content7 cid-tzrEn3utgX" id="content7-7">
+    
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-4">
+                <blockquote>
+                <h5 class="mbr-section-title mbr-fonts-style mb-2 display-7"><strong>Result</strong></h5>
+                <p class="mbr-text mbr-fonts-style display-4">{{fact_check}}</p></blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="image3 cid-tzs6NTIYcO" id="image3-9">
+    
+
+    
+    
+
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-6">
+                <div class="image-wrapper">
+                    <img src="data:image/png;base64,{{data}}">
+                    <p class="mbr-description mbr-fonts-style mt-2 align-center display-4">
+                       Context WordCloud </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="header19 cid-tzrs7rtmm7 mbr-fullscreen mbr-parallax-background" id="header19-3">
+
+    
+
+    
+    <div class="mbr-overlay" style="opacity: 0.4; background-color: rgb(35, 35, 35);">
+    </div>
+
+    <div class="container">
+        <div class="media-container">
+            <div class="col-md-12 align-center">
+                <h1 class="mbr-section-title mbr-white mbr-bold mbr-fonts-style mb-3 display-1">FEATURES</h1>
+                <p class="mbr-text mbr-white mbr-fonts-style display-7">Four step fact checking to get your NEWS material right</p>
+                
+
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-wrapper">
+                            <div class="card-box align-center">
+                                <span class="mbr-iconfont mobi-mbri-database mobi-mbri"></span>
+                                <h4 class="card-title align-center mbr-black mbr-fonts-style display-7">Dynamic Query Searching</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-wrapper">
+                            <div class="card-box align-center">
+                                <span class="mbr-iconfont socicon-internet socicon"></span>
+                                <h4 class="card-title align-center mbr-black mbr-fonts-style display-7">
+                                    <strong>Source Reliability Check</strong></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-wrapper">
+                            <div class="card-box align-center">
+                                <span class="mbr-iconfont mobi-mbri-chat mobi-mbri"></span>
+                                <h4 class="card-title align-center mbr-black mbr-fonts-style display-7">
+                                    <strong>Abnormal/Hate Speech Detection</strong></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-wrapper">
+                            <div class="card-box align-center">
+                                <span class="mbr-iconfont mobi-mbri-sites mobi-mbri"></span>
+                                <h4 class="card-title align-center mbr-black mbr-fonts-style display-7"><strong>Counter Spam attack</strong></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
