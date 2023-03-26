@@ -9,7 +9,7 @@
 ![alt text ](https://img.shields.io/badge/sumy-0.11.1-white.svg)
 ![alt text ](https://img.shields.io/badge/numpy-1.24.2-blueviolet.svg)
 ![alt text ](https://img.shields.io/badge/pandas-1.5.3-ff69b4.svg)
-![alt text ](https://img.shields.io/badge/kylian_mbappe-23.11.98-ff29b4.svg)
+![alt text ](https://img.shields.io/badge/kylian_mbappe-23.12.98-c2ccc4.svg)
 
 
 
