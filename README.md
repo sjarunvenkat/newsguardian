@@ -44,7 +44,7 @@ python manage.py runserver
 ```
 # Colab Notebook
 
-Main code available in our Colab Notebook at this link - https://colab.research.google.com/drive/1bwGiFBhhzbXn3QYJ-oZxaF7OoqxgKFHw?usp=sharing
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1bwGiFBhhzbXn3QYJ-oZxaF7OoqxgKFHw?usp=sharing/)
 
 # Flow of Work
 ![alt text](https://raw.githubusercontent.com/sjarunvenkat/newsguardian/main/Flowchart%20-%20newsguardian_.jpg)
