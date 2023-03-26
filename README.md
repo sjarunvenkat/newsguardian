@@ -14,7 +14,11 @@ To obtain this project in your system, run this snippet (make sure to have Git i
 ```
 git clone https://github.com/sjarunvenkat/newsguardian.git
 ```
-And then run this below
+And then run this below after creating a virtual environment.
+```
+cd newsguardian
+```
+
 ```
 python manage.py runserver
 ```
