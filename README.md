@@ -7,7 +7,14 @@ Dynamic Fake news detection software
 * Enter the news headline and article text when prompted.
 * The program will analyze the text and determine if it is likely to be fake news or not.
 
+
 # Execution
+
+To obtain this project in your system, run this snippet (make sure to have Git installed in your system)
+```
+git clone https://github.com/sjarunvenkat/newsguardian.git
+```
+And then run this below
 ```
 python manage.py runserver
 ```
