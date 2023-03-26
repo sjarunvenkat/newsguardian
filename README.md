@@ -1,13 +1,13 @@
 # newsguardian 1.0.0
-Dynamic Fake news detection software 
 
 Enter Newsguardian 1.0.0, your very own source of real-time and dynamic fact checking and fake news detection tool. We work with the aim of this being always free and forever.
 
-Information fact checked right at the moment
+Fact checking your information, whenever you want, wherever you go!
 
 
 
 ![alt text](https://raw.githubusercontent.com/sjarunvenkat/newsguardian/main/newsguardian%20welcome%20page.png)
+
 
 
 
