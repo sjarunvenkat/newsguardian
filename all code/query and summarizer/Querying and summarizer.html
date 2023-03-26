@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>5c964e0f743f4d53880e4b50b3bad00b</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="installing-all-libraries" class="cell markdown"
+id="mcmv5MRZODMl">
+<h3>Installing all libraries</h3>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="6tXGhqyn0vnl" data-outputId="ca455219-8a88-418e-cca5-f4609e73643c">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install transformers</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install sentence<span class="op">-</span>transformers</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install googlesearch.py</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Looking in indexes: https://pypi.org/simple, https://us-python.pkg.dev/colab-wheels/public/simple/
+Collecting transformers
+  Downloading transformers-4.27.3-py3-none-any.whl (6.8 MB)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.8/6.8 MB 35.8 MB/s eta 0:00:00
+ent already satisfied: pyyaml&gt;=5.1 in /usr/local/lib/python3.9/dist-packages (from transformers) (6.0)
+Requirement already satisfied: numpy&gt;=1.17 in /usr/local/lib/python3.9/dist-packages (from transformers) (1.24.2)
+Requirement already satisfied: packaging&gt;=20.0 in /usr/local/lib/python3.9/dist-packages (from transformers) (23.0)
+Requirement already satisfied: filelock in /usr/local/lib/python3.9/dist-packages (from transformers) (3.10.1)
+Requirement already satisfied: tqdm&gt;=4.27 in /usr/local/lib/python3.9/dist-packages (from transformers) (4.65.0)
+Requirement already satisfied: regex!=2019.12.17 in /usr/local/lib/python3.9/dist-packages (from transformers) (2022.10.31)
+Collecting tokenizers!=0.11.3,&lt;0.14,&gt;=0.11.1
+  Downloading tokenizers-0.13.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (7.6 MB)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.6/7.6 MB 54.1 MB/s eta 0:00:00
+ent already satisfied: requests in /usr/local/lib/python3.9/dist-packages (from transformers) (2.27.1)
+Collecting huggingface-hub&lt;1.0,&gt;=0.11.0
+  Downloading huggingface_hub-0.13.3-py3-none-any.whl (199 kB)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 199.8/199.8 KB 18.3 MB/s eta 0:00:00
+ent already satisfied: typing-extensions&gt;=3.7.4.3 in /usr/local/lib/python3.9/dist-packages (from huggingface-hub&lt;1.0,&gt;=0.11.0-&gt;transformers) (4.5.0)
+Requirement already satisfied: charset-normalizer~=2.0.0 in /usr/local/lib/python3.9/dist-packages (from requests-&gt;transformers) (2.0.12)
+Requirement already satisfied: certifi&gt;=2017.4.17 in /usr/local/lib/python3.9/dist-packages (from requests-&gt;transformers) (2022.12.7)
+Requirement already satisfied: idna&lt;4,&gt;=2.5 in /usr/local/lib/python3.9/dist-packages (from requests-&gt;transformers) (3.4)
+Requirement already satisfied: urllib3&lt;1.27,&gt;=1.21.1 in /usr/local/lib/python3.9/dist-packages (from requests-&gt;transformers) (1.26.15)
+Installing collected packages: tokenizers, huggingface-hub, transformers
+Successfully installed huggingface-hub-0.13.3 tokenizers-0.13.2 transformers-4.27.3
+Looking in indexes: https://pypi.org/simple, https://us-python.pkg.dev/colab-wheels/public/simple/
+Collecting sentence-transformers
+  Downloading sentence-transformers-2.2.2.tar.gz (85 kB)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 86.0/86.0 KB 3.9 MB/s eta 0:00:00
+etadata (setup.py) ... ent already satisfied: transformers&lt;5.0.0,&gt;=4.6.0 in /usr/local/lib/python3.9/dist-packages (from sentence-transformers) (4.27.3)
+Requirement already satisfied: tqdm in /usr/local/lib/python3.9/dist-packages (from sentence-transformers) (4.65.0)
+Requirement already satisfied: torch&gt;=1.6.0 in /usr/local/lib/python3.9/dist-packages (from sentence-transformers) (1.13.1+cu116)
+Requirement already satisfied: torchvision in /usr/local/lib/python3.9/dist-packages (from sentence-transformers) (0.14.1+cu116)
+Requirement already satisfied: numpy in /usr/local/lib/python3.9/dist-packages (from sentence-transformers) (1.24.2)
+Requirement already satisfied: scikit-learn in /usr/local/lib/python3.9/dist-packages (from sentence-transformers) (1.2.2)
+Requirement already satisfied: scipy in /usr/local/lib/python3.9/dist-packages (from sentence-transformers) (1.10.1)
+Requirement already satisfied: nltk in /usr/local/lib/python3.9/dist-packages (from sentence-transformers) (3.8.1)
+Collecting sentencepiece
+  Downloading sentencepiece-0.1.97-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.3 MB)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 24.2 MB/s eta 0:00:00
+ent already satisfied: huggingface-hub&gt;=0.4.0 in /usr/local/lib/python3.9/dist-packages (from sentence-transformers) (0.13.3)
+Requirement already satisfied: filelock in /usr/local/lib/python3.9/dist-packages (from huggingface-hub&gt;=0.4.0-&gt;sentence-transformers) (3.10.1)
+Requirement already satisfied: requests in /usr/local/lib/python3.9/dist-packages (from huggingface-hub&gt;=0.4.0-&gt;sentence-transformers) (2.27.1)
+Requirement already satisfied: pyyaml&gt;=5.1 in /usr/local/lib/python3.9/dist-packages (from huggingface-hub&gt;=0.4.0-&gt;sentence-transformers) (6.0)
+Requirement already satisfied: packaging&gt;=20.9 in /usr/local/lib/python3.9/dist-packages (from huggingface-hub&gt;=0.4.0-&gt;sentence-transformers) (23.0)
+Requirement already satisfied: typing-extensions&gt;=3.7.4.3 in /usr/local/lib/python3.9/dist-packages (from huggingface-hub&gt;=0.4.0-&gt;sentence-transformers) (4.5.0)
+Requirement already satisfied: tokenizers!=0.11.3,&lt;0.14,&gt;=0.11.1 in /usr/local/lib/python3.9/dist-packages (from transformers&lt;5.0.0,&gt;=4.6.0-&gt;sentence-transformers) (0.13.2)
+Requirement already satisfied: regex!=2019.12.17 in /usr/local/lib/python3.9/dist-packages (from transformers&lt;5.0.0,&gt;=4.6.0-&gt;sentence-transformers) (2022.10.31)
+Requirement already satisfied: joblib in /usr/local/lib/python3.9/dist-packages (from nltk-&gt;sentence-transformers) (1.1.1)
+Requirement already satisfied: click in /usr/local/lib/python3.9/dist-packages (from nltk-&gt;sentence-transformers) (8.1.3)
+Requirement already satisfied: threadpoolctl&gt;=2.0.0 in /usr/local/lib/python3.9/dist-packages (from scikit-learn-&gt;sentence-transformers) (3.1.0)
+Requirement already satisfied: pillow!=8.3.*,&gt;=5.3.0 in /usr/local/lib/python3.9/dist-packages (from torchvision-&gt;sentence-transformers) (8.4.0)
+Requirement already satisfied: urllib3&lt;1.27,&gt;=1.21.1 in /usr/local/lib/python3.9/dist-packages (from requests-&gt;huggingface-hub&gt;=0.4.0-&gt;sentence-transformers) (1.26.15)
+Requirement already satisfied: certifi&gt;=2017.4.17 in /usr/local/lib/python3.9/dist-packages (from requests-&gt;huggingface-hub&gt;=0.4.0-&gt;sentence-transformers) (2022.12.7)
+Requirement already satisfied: idna&lt;4,&gt;=2.5 in /usr/local/lib/python3.9/dist-packages (from requests-&gt;huggingface-hub&gt;=0.4.0-&gt;sentence-transformers) (3.4)
+Requirement already satisfied: charset-normalizer~=2.0.0 in /usr/local/lib/python3.9/dist-packages (from requests-&gt;huggingface-hub&gt;=0.4.0-&gt;sentence-transformers) (2.0.12)
+Building wheels for collected packages: sentence-transformers
+  Building wheel for sentence-transformers (setup.py) ... ers: filename=sentence_transformers-2.2.2-py3-none-any.whl size=125942 sha256=6a236b0bf5e635cc70859cdecb37bcf2438cbc97daae64399446793639f7bf7c
+  Stored in directory: /root/.cache/pip/wheels/71/67/06/162a3760c40d74dd40bc855d527008d26341c2b0ecf3e8e11f
+Successfully built sentence-transformers
+Installing collected packages: sentencepiece, sentence-transformers
+Successfully installed sentence-transformers-2.2.2 sentencepiece-0.1.97
+Looking in indexes: https://pypi.org/simple, https://us-python.pkg.dev/colab-wheels/public/simple/
+Collecting googlesearch.py
+  Downloading googlesearch.py-1.6.1-py3-none-any.whl (2.6 kB)
+Collecting httpx
+  Downloading httpx-0.23.3-py3-none-any.whl (71 kB)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 71.5/71.5 KB 3.2 MB/s eta 0:00:00
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 69.6/69.6 KB 8.1 MB/s eta 0:00:00
+ent already satisfied: certifi in /usr/local/lib/python3.9/dist-packages (from httpx-&gt;googlesearch.py) (2022.12.7)
+Collecting anyio&lt;5.0,&gt;=3.0
+  Downloading anyio-3.6.2-py3-none-any.whl (80 kB)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 80.6/80.6 KB 8.1 MB/s eta 0:00:00
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.3/58.3 KB 6.2 MB/s eta 0:00:00
+ent already satisfied: idna in /usr/local/lib/python3.9/dist-packages (from rfc3986[idna2008]&lt;2,&gt;=1.3-&gt;httpx-&gt;googlesearch.py) (3.4)
+Installing collected packages: rfc3986, sniffio, h11, anyio, httpcore, httpx, googlesearch.py
+Successfully installed anyio-3.6.2 googlesearch.py-1.6.1 h11-0.14.0 httpcore-0.16.3 httpx-0.23.3 rfc3986-1.5.0 sniffio-1.3.0
+</code></pre>
+</div>
+</div>
+<section id="invoking-all-libraries" class="cell markdown"
+id="MgabHVnJPYtG">
+<h3>Invoking all libraries</h3>
+</section>
+<div class="cell code" id="Lv8tTg7H0vtu">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sentence_transformers <span class="im">import</span> SentenceTransformer, util</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span></code></pre></div>
+</div>
+<section id="downloading-transformer-weights" class="cell markdown"
+id="PaJPSwHbPcAh">
+<h3>Downloading Transformer weights</h3>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:465,&quot;referenced_widgets&quot;:[&quot;c6921c29b6974974add7c95c6d7b088d&quot;,&quot;1e7be58514d1420baf09a4f50e465744&quot;,&quot;b4ddf005d65941f391cb1042be58d455&quot;,&quot;165fa292fc7a475d9f0f4cd38c02465f&quot;,&quot;a3cd1db10aa545a49360fa9f9b0dc136&quot;,&quot;9834bf742b774fd7bc0efb0cb57c765f&quot;,&quot;ca3937dbc8f0470c9ad358b34cb8989b&quot;,&quot;e1153250f2f14913b2800e86ef2983fe&quot;,&quot;f7e9fbb390fa4a7d9e879c4b97b58a73&quot;,&quot;dbdac3001f614288a203158b1c298457&quot;,&quot;2a915574fadd4f128a33a773a6a23fae&quot;,&quot;eb75235e8da045ec8c819d9a46a5510f&quot;,&quot;619c32988c604b0f8dc0a6eb2aefbfa1&quot;,&quot;d2d70a32bf4a416ea153b97830f3f60a&quot;,&quot;c22ce24546374bf580bca5a6ff7e1710&quot;,&quot;4720718066f74e1cb5d9453c422a0bb4&quot;,&quot;fb088b8fb8cb442f9a76f9660331ef1a&quot;,&quot;7df8bd4d83974cda80c7d35ae20b909d&quot;,&quot;a15a1679a1ee4ddb9ed84df4b4aa9e98&quot;,&quot;ed62d07831694c8ea2ed14cef6443ca0&quot;,&quot;34782d112d31480e84540219f79efebc&quot;,&quot;6c06af5756c04d3d8292dacf9df71027&quot;,&quot;625e735b4e6a4418ba5609e5dcffc61e&quot;,&quot;b29c480edb384ea68b041fbb59d41590&quot;,&quot;63bdf3d8c5d54a20951c45f2578fb5ef&quot;,&quot;fa999c80bfa74bdb9e22adbe23ac73d8&quot;,&quot;8c77fe85daba4026b6978bfb33f3c576&quot;,&quot;9a4cf0d1990a40949a5a63bcf00f900a&quot;,&quot;610c4235ca9a493ca4b54e7f738afd6e&quot;,&quot;0e7575f626d14896b71f83d305a89b7d&quot;,&quot;a9015b0a30d64ff9bf6107112b7ed29f&quot;,&quot;542f1c4e086a4cd09bd747f6757ad8a6&quot;,&quot;4fb50ae0faaa426d9c674465d34a809e&quot;,&quot;e0783cfa13e940a386f09ee28acaaf82&quot;,&quot;0d6569e875864c45adb5c05173387f01&quot;,&quot;f64b79bca2134a2faee3049b7125e8f3&quot;,&quot;9f1faa1f27f64c8e93c08b798836cf83&quot;,&quot;635a176f5ef54efe9f2abe0ef7fcba59&quot;,&quot;3acfb9bf4a2842cbb58356c25dbe2a8e&quot;,&quot;4bdc489e5eaa4d598605b58d534feb35&quot;,&quot;589131da008947e9ad2ab99cf38dbf47&quot;,&quot;ffbdfa691b2b496e9ab550a4bb1755f4&quot;,&quot;67f90113f4df4803a40abb0bda86b77b&quot;,&quot;3d037745c4bd4c4f84d1e364c073d048&quot;,&quot;e04d9212c5c047ae8516a6f83136e623&quot;,&quot;7eaaa5f285604c038f255d108c19d3cf&quot;,&quot;b41b37c022dc421cbff7108ab24ba741&quot;,&quot;56eef1c2610248dcbda300de5d21767f&quot;,&quot;29509b87f60d48f8a5d8f123b7ad89ac&quot;,&quot;d85221772a2b405ca1e5cbb89b162b1c&quot;,&quot;60c43c699095484a976efe3143e7756d&quot;,&quot;5261d25a758646f1b310b26148f4dfac&quot;,&quot;07587973624f48659be46ddb71ff1d70&quot;,&quot;bf460f5c69c344b4917695caa0ff8ef8&quot;,&quot;06bcbbe5e7dc478cbdc1b630cb071c29&quot;,&quot;25d9e27b75bd4dbba923d165f33d9dc6&quot;,&quot;d53483e1909245c38bddeb188d466306&quot;,&quot;5799654385064813a9402b70b0c9db4e&quot;,&quot;a93fd94df94443eda6ab03bcd358314d&quot;,&quot;a9a50ba78e554a3dbf83047d492043ab&quot;,&quot;db4ca5bc0d7b4f8aa12cbe31b98e686d&quot;,&quot;2c6d3670d33c4271a77925383d0ec376&quot;,&quot;13b5a33db00744c298ddda9dd6c28c70&quot;,&quot;633be3a66536413bb259b1955fdabbd5&quot;,&quot;ae3a87956542465bb581540881c309a7&quot;,&quot;1223b27fda70401897b0532c0f6fefbf&quot;,&quot;157994e1687d47b1832e80694eeb3667&quot;,&quot;9d8b237690fa40a59c69975df9d94351&quot;,&quot;3918c000c08340bb99abdccb4ea9378c&quot;,&quot;de1cd370ae1348088d5f8afe32471805&quot;,&quot;cb5355cefbe34d60aa30dc037edd343a&quot;,&quot;f24d5e8bad0e479f84ba8318a4eac66a&quot;,&quot;eb4846736577403db7706d192084ff81&quot;,&quot;cd59530fda904728861f06bcf307200e&quot;,&quot;289e5ddf37dd483da401e56b64f1e247&quot;,&quot;2fb6aea0b92e47ba9f6f7b32f271bacd&quot;,&quot;40679cd7c95049a0aa2a6aa58ceaf997&quot;,&quot;da800080bdd442c89ae6e3c61324c10e&quot;,&quot;00c7702a47c5429f9073e24ca3c29a65&quot;,&quot;2ff8e1562f864902b02d137660d168e8&quot;,&quot;9e2a31cc5a5344eeb23e25e55183d81f&quot;,&quot;85796a736a094a24a02da1ea1d32db86&quot;,&quot;04b7258000e14ae1ad22b945ad54e213&quot;,&quot;c615c9e236884434b12f6841c42090e5&quot;,&quot;67aa308017864419819fcd269712fbd8&quot;,&quot;e3ec9c3c43054bc98afddb22e7c9d4b2&quot;,&quot;0def3503b55a45288c97b059eaa71ac0&quot;,&quot;25e26da31b104e2fa5d9583a71d51b99&quot;,&quot;cd15b9ac2a9940519583c0f1eac789c0&quot;,&quot;495753b04ab047b48a1575210d0c5266&quot;,&quot;37940f5f03ed4db79daf3b118692b785&quot;,&quot;29c6c758065c4e75b464117308227ad2&quot;,&quot;5fa8640dc8c54fc4bf378035bff7aad1&quot;,&quot;7b51952a2f39416e96a7e2a352a8fdac&quot;,&quot;185523e0bdfc46f79efeadbdc905e044&quot;,&quot;018f218369174d439ac1e887e7181994&quot;,&quot;59f2feec7a074909b94323bc509b1348&quot;,&quot;7c27d9d75dac4aeb87861f6f51fe75db&quot;,&quot;6efcf39500994fd3b2a77a09d1236de0&quot;,&quot;7b8484b067604d7b9373c2465fb32b22&quot;,&quot;98a7ec5f8d8b4c6f8e33d5787cdad690&quot;,&quot;d8bcc245b84142229d92e7f7e3dea916&quot;,&quot;b900b7c012894de9bc6ca8644bcb6577&quot;,&quot;e1344456e9534bff89e34d8a43706d9d&quot;,&quot;f0475c27626847a48e0b1ac48a2e35f2&quot;,&quot;f061561305914fd49d5be8fed6fc0939&quot;,&quot;ede62cc3e66a4791837a4af29df86bd7&quot;,&quot;96363a81d34e43ce978ec0a66f8dd88e&quot;,&quot;77aa4cf0e13e4ef4966e40db9db81a1a&quot;,&quot;fd7579b645b641d78e19fd9ca986b3c5&quot;,&quot;562cfcbafc614c1a989418c276111c27&quot;,&quot;23d69c5188f34afe9438c7a0118a3413&quot;,&quot;fd3019142d7f4487908226438b885117&quot;,&quot;1438e0b218e845d6918f8191ab27a541&quot;,&quot;0980b229ae7c4f3e9228c3eb4dc75e6f&quot;,&quot;8fcf55eeb7b04631b44048b27be85356&quot;,&quot;b68049155f2d47799dae194beb27e65e&quot;,&quot;5992a415d77544f0b74e22884e827724&quot;,&quot;f8f7186c6afc45d8a2adea22d556a22e&quot;,&quot;925d4945e17e4747b74d6376e1bcd1e0&quot;,&quot;e5472dcd7b704689a2e3fd973bdfd184&quot;,&quot;1c069e24bdb548ce98c9ae6b6be0c299&quot;,&quot;819829ed478b4f0689835a49a2ef6a17&quot;,&quot;69bc2f5f113649cba3c4019f29218b79&quot;,&quot;3632f16a2caa4c8cb7bf483559858b89&quot;,&quot;cfc15315c99b414c892f230cd0a33984&quot;,&quot;597ea9a762ea4626960cb0378995bdfd&quot;,&quot;39792075295541508ef84ae2980ed101&quot;,&quot;ca35c001db154207b140dee38bed70f6&quot;,&quot;323ff2ed1abf405eb4e926867f3bdc70&quot;,&quot;2ea8eb2af1f2442fafbfa8b3ef14a2b8&quot;,&quot;c8dc947cf5354d31a672a7503f6437ce&quot;,&quot;da6a1cee466a48f19ef197c010ce951c&quot;,&quot;8d2dcb199ec44da0b60da1810610bd61&quot;,&quot;085cd2f601454bbeb33673734b04e2a7&quot;,&quot;bc48efe0434e43e2bfddf90669dd61ad&quot;,&quot;b259b0cda58f45a5bafe2870c1b47c62&quot;,&quot;3e3c13eec6f44c70b2d5a0bab48a469a&quot;,&quot;e20301acea2346958eb681463b80b336&quot;,&quot;4aae99ffdd17427fbd3d8e7b63f1ed7e&quot;,&quot;966ec37b7e354a659c5ee20b9fb8c8c4&quot;,&quot;41e021b720694f7c98702ff3501ef40e&quot;,&quot;cac746e019054236a5b0c3db94c49619&quot;,&quot;112a6180d7124ed682029769b73539fc&quot;,&quot;e9462b9460fd484288b42e1fa33cc1ab&quot;,&quot;d2efe79c55e24e5e9a1d2925bfedb779&quot;,&quot;a3d969c9c1a1426fba307c12a892480e&quot;,&quot;1c4b24ea2251442190b0c90cfbc03f51&quot;,&quot;41678fc519c64d71abb7b3672c5efb70&quot;,&quot;f29c24f878724acc9e6e26e3d2b5f792&quot;,&quot;b93e2367415d447ab15720d17dcc95ae&quot;,&quot;89024d50bd2f47c1b6600781bdc80701&quot;,&quot;5142cb7c1e644ffcb22e894a5adaf838&quot;,&quot;cefb22086ad8460cb3bab7fda1d3e054&quot;]}"
+id="kR6HYQX00vqz" data-outputId="3a50352f-6a16-4320-9dc2-6f8a9ea78ab6">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> SentenceTransformer(<span class="st">&#39;stsb-roberta-large&#39;</span>)</span></code></pre></div>
+<div class="output display_data">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;c6921c29b6974974add7c95c6d7b088d&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;eb75235e8da045ec8c819d9a46a5510f&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;625e735b4e6a4418ba5609e5dcffc61e&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;e0783cfa13e940a386f09ee28acaaf82&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;e04d9212c5c047ae8516a6f83136e623&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;25d9e27b75bd4dbba923d165f33d9dc6&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;157994e1687d47b1832e80694eeb3667&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;da800080bdd442c89ae6e3c61324c10e&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;cd15b9ac2a9940519583c0f1eac789c0&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;7b8484b067604d7b9373c2465fb32b22&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;562cfcbafc614c1a989418c276111c27&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;1c069e24bdb548ce98c9ae6b6be0c299&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;da6a1cee466a48f19ef197c010ce951c&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;112a6180d7124ed682029769b73539fc&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+</div>
+<section id="googlesearch-library" class="cell markdown"
+id="6yHEfG0gQHfB">
+<h3>Googlesearch library</h3>
+</section>
+<div class="cell code" id="DE6S5NFAi4OS">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> googlesearch_py</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>query <span class="op">=</span> <span class="st">&quot;defaced mahathma gandhi statue&quot;</span></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>results <span class="op">=</span> googlesearch_py.search(query)</span></code></pre></div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="JoSFrhGjVPgq" data-outputId="2356e228-f65b-4028-e99e-baaeedc9d4a8">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>results</span></code></pre></div>
+<div class="output execute_result" data-execution_count="14">
+<pre><code>[{&#39;url&#39;: &#39;https://www.thehindu.com/news/international/in-possible-hate-crime-gandhi-statue-outside-hindu-temple-in-new-york-vandalised/article65788872.ece&#39;,
+  &#39;title&#39;: &#39;Mahatma Gandhi statue outside Hindu temple in New York ...&#39;,
+  &#39;description&#39;: &#39;U.S. President Donald Trump called the defacement of Mahatma Gandhi\&#39;s statue a &quot;disgrace&quot;. The statue was defaced and vandalized during a Khalistani separatist\xa0...&#39;}]</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="pXGiDWwai4MG" data-outputId="1ebd6b52-f5e0-4bf7-ba30-35dad5f76bd9">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>addme <span class="op">=</span> []</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>,<span class="bu">len</span>(results)):</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>  fine <span class="op">=</span> results[i].get(<span class="st">&#39;title&#39;</span>) </span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>  addme.append(fine)</span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a>addme</span></code></pre></div>
+<div class="output execute_result" data-execution_count="15">
+<pre><code>[&#39;Mahatma Gandhi statue outside Hindu temple in New York ...&#39;]</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="owot-UgsKGon" data-outputId="f18ff234-93ff-4da2-a5c3-0faaeb7e7a9a">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> spacy</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>nlp <span class="op">=</span> spacy.load(<span class="st">&#39;en_core_web_sm&#39;</span>)</span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>text <span class="op">=</span> <span class="st">&quot;anirudh ravichander is a music composer&quot;</span></span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Tokenize the text</span></span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>doc <span class="op">=</span> nlp(text)</span>
+<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-10"><a href="#cb24-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract the subject, verb, and object</span></span>
+<span id="cb24-11"><a href="#cb24-11" aria-hidden="true" tabindex="-1"></a>subject <span class="op">=</span> <span class="st">&quot;&quot;</span></span>
+<span id="cb24-12"><a href="#cb24-12" aria-hidden="true" tabindex="-1"></a>verb <span class="op">=</span> <span class="st">&quot;&quot;</span></span>
+<span id="cb24-13"><a href="#cb24-13" aria-hidden="true" tabindex="-1"></a><span class="bu">object</span> <span class="op">=</span> <span class="st">&quot;&quot;</span></span>
+<span id="cb24-14"><a href="#cb24-14" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> token <span class="kw">in</span> doc:</span>
+<span id="cb24-15"><a href="#cb24-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> token.dep_ <span class="op">==</span> <span class="st">&#39;nsubj&#39;</span>:</span>
+<span id="cb24-16"><a href="#cb24-16" aria-hidden="true" tabindex="-1"></a>        subject <span class="op">=</span> token.text</span>
+<span id="cb24-17"><a href="#cb24-17" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> token.dep_ <span class="op">==</span> <span class="st">&#39;ROOT&#39;</span>:</span>
+<span id="cb24-18"><a href="#cb24-18" aria-hidden="true" tabindex="-1"></a>        verb <span class="op">=</span> token.text</span>
+<span id="cb24-19"><a href="#cb24-19" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> token.dep_ <span class="op">==</span> <span class="st">&#39;dobj&#39;</span>:</span>
+<span id="cb24-20"><a href="#cb24-20" aria-hidden="true" tabindex="-1"></a>        <span class="bu">object</span> <span class="op">=</span> token.text</span>
+<span id="cb24-21"><a href="#cb24-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-22"><a href="#cb24-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Create the question</span></span>
+<span id="cb24-23"><a href="#cb24-23" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> subject <span class="kw">and</span> verb:</span>
+<span id="cb24-24"><a href="#cb24-24" aria-hidden="true" tabindex="-1"></a>    question <span class="op">=</span> <span class="ss">f&quot;What </span><span class="sc">{</span>verb<span class="sc">}</span><span class="ss"> </span><span class="sc">{</span><span class="bu">object</span><span class="sc">}</span><span class="ss">?&quot;</span></span>
+<span id="cb24-25"><a href="#cb24-25" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(question)</span>
+<span id="cb24-26"><a href="#cb24-26" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span>:</span>
+<span id="cb24-27"><a href="#cb24-27" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;Could not create a question from the given text.&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>What is ?
+</code></pre>
+</div>
+</div>
+<section id="checking-semantic-similarity" class="cell markdown"
+id="uTSkGSfGPkwU">
+<h3>Checking semantic similarity</h3>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="FmM-unmQi4HZ" data-outputId="2b789a36-394d-43e0-c1dd-b5bdc71003a7">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>eight <span class="op">=</span> []</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>,<span class="bu">len</span>(addme)):</span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>  sen1 <span class="op">=</span> model.encode(query, convert_to_tensor<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a>  sen2 <span class="op">=</span> model.encode(addme[i], convert_to_tensor<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a>  cosine_scores <span class="op">=</span> <span class="bu">list</span>(util.pytorch_cos_sim(sen1, sen2).reshape(<span class="op">-</span><span class="dv">1</span>).tolist())</span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a>  eight.append(cosine_scores)</span>
+<span id="cb26-9"><a href="#cb26-9" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb26-10"><a href="#cb26-10" aria-hidden="true" tabindex="-1"></a>eight</span></code></pre></div>
+<div class="output execute_result" data-execution_count="17">
+<pre><code>[[0.6566106081008911]]</code></pre>
+</div>
+</div>
+<section
+id="the-whole-thing-was-in-tensors-so-i-made-it-to-a-2d-array-and-then-to-sweet-lil-list"
+class="cell markdown" id="gvEpGEGTQZmt">
+<h4>The whole thing was in tensors, so i made it to a 2d array and then
+to sweet lil list.</h4>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="7kRGw4SmN6TY" data-outputId="1df32560-c7f3-4acf-8ea0-d7bd408f6008">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>nine <span class="op">=</span> []</span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, <span class="bu">len</span>(eight)):</span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>  nine.append(eight[i][<span class="dv">0</span>])</span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a>nine</span></code></pre></div>
+<div class="output execute_result" data-execution_count="18">
+<pre><code>[0.6566106081008911]</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="M6WturmdG87P" data-outputId="1bec6fd7-78b2-41a7-b271-5e1b7be9435a">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>avg <span class="op">=</span> <span class="bu">sum</span>(nine) <span class="op">/</span> <span class="bu">len</span>(nine)  <span class="co"># calculate average</span></span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(avg)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>0.6566106081008911
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="FpXThQFMHie0" data-outputId="b5da0dea-5865-4826-b670-d8f9e3fdfc01">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>threshold <span class="op">=</span> <span class="fl">0.45</span></span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> avg <span class="op">&gt;=</span> threshold :</span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>   <span class="bu">print</span>(<span class="st">&quot;news is Real&quot;</span>)</span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span>:</span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(<span class="st">&quot;news is Fake&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>news is Real
+</code></pre>
+</div>
+</div>
+<div class="cell code" id="VxfMyHRzRddl">
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+<div class="cell code" id="TH4agY_aRda6">
+<div class="sourceCode" id="cb35"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+<div class="cell code" id="Z7ezletKRdR6">
+<div class="sourceCode" id="cb36"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+</body>
+</html>
