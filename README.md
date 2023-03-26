@@ -1,7 +1,7 @@
 # newsguardian 1.0.0
 Dynamic Fake news detection software 
 
-![alt text](newsguardian welcome page.png)
+![alt text](https://raw.githubusercontent.com/sjarunvenkat/newsguardian/main/newsguardian%20welcome%20page.png)
 
 # Usage
 * Navigate to the root directory of the project.
