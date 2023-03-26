@@ -1,5 +1,16 @@
 # newsguardian 1.0.0
 
+![alt text ](https://img.shields.io/badge/Python-3.10-blue.svg)
+![alt text ](https://img.shields.io/badge/Django-4.1.7-006400.svg)
+![alt text ](https://img.shields.io/badge/BeautifulSoup4-4.12.0-800080.svg)
+![alt text ](https://img.shields.io/badge/SentenceTransformers-2.22-FF1493.svg)
+![alt text ](https://img.shields.io/badge/NLTK-3.8.1-success.svg)
+![alt text ](https://img.shields.io/badge/spaCy-3.5.1-red.svg)
+![alt text ](https://img.shields.io/badge/sumy-0.11.1-white.svg)
+![alt text ](https://img.shields.io/badge/numpy-1.24.2-blueviolet.svg)
+![alt text ](https://img.shields.io/badge/pandas-1.5.3-ff69b4.svg)
+
+
 Enter Newsguardian 1.0.0, your very own source of real-time and dynamic fact checking and fake news detection tool. We work with the aim of this being always free and forever.
 
 Fact checking your information, whenever you want, wherever you go!
