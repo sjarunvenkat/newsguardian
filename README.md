@@ -3,6 +3,8 @@ Dynamic Fake news detection software
 
 ![alt text](https://raw.githubusercontent.com/sjarunvenkat/newsguardian/main/newsguardian%20welcome%20page.png)
 
+nuhubu
+
 # Usage
 * Navigate to the root directory of the project.
 * Run manage.py to start the program.
