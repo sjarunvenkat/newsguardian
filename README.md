@@ -9,6 +9,8 @@
 ![alt text ](https://img.shields.io/badge/sumy-0.11.1-white.svg)
 ![alt text ](https://img.shields.io/badge/numpy-1.24.2-blueviolet.svg)
 ![alt text ](https://img.shields.io/badge/pandas-1.5.3-ff69b4.svg)
+![alt text ](https://img.shields.io/badge/kylian_mbappe-23.11.98-ff29b4.svg)
+
 
 
 Enter Newsguardian 1.0.0, your very own source of real-time and dynamic fact checking and fake news detection tool. We work with the aim of this being always free and forever.
