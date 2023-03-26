@@ -22,9 +22,9 @@ cd newsguardian
 ```
 python manage.py runserver
 ```
-#Colab Notebook
+# Colab Notebook
 
 Main code available in our Colab Notebook at this link - https://colab.research.google.com/drive/1bwGiFBhhzbXn3QYJ-oZxaF7OoqxgKFHw?usp=sharing
 
-# Contributing
+# Making Contributions
 Contributions to Newsguardian are welcome. If you find a bug or have an idea for a new feature, please open an issue or submit a pull request.
