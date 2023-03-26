@@ -1,12 +1,13 @@
 # newsguardian 1.0.0
 Dynamic Fake news detection software 
 
+![Software screenshot ](newsguardian welcome page.png)
+
 # Usage
 * Navigate to the root directory of the project.
 * Run manage.py to start the program.
 * Enter the news headline and article text when prompted.
 * The program will analyze the text and determine if it is likely to be fake news or not.
-
 
 # Execution
 
