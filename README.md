@@ -13,7 +13,7 @@
 
 
 
-Enter Newsguardian 1.0.0, your very own source of real-time and dynamic fact checking and fake news detection tool. We work with the aim of this being always free and forever.
+Built for the intra college hackathon for KAVACH 2023, Newsguardian 1.0.0 is your very own source of real-time and dynamic fact checking and fake news detection tool. We work with the aim of this being always free and forever.
 
 Fact checking your information, whenever you want, wherever you go!
 
